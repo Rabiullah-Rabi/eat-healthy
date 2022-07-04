@@ -1,0 +1,57 @@
+/* Global css */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, #fba24f, #FE472D);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 30px #fc8f49;
+}
+/* css for banner section */
+h1.banner-title {
+    font-size: 60px;
+    color: #575757;
+    line-height: 130%;
+    font-weight: bold;
+}
+.gradient-text {
+    margin-right: 15px;
+    background: linear-gradient(45deg, #fb994c, #fc8746);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-pera{
+    color: #828282;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-top: 35px;
+    margin-bottom: 10%;
+}
+.banner-image {
+    width: 100%;
+}

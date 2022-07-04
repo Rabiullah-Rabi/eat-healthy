@@ -20,7 +20,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.cta-btn-wrapper {
+    margin-top: 10%;
+}
 .cta-button {
     text-decoration: none;
     color: #fff;
@@ -30,6 +32,27 @@
     padding: 15px 30px;
     border-radius: 50px;
     box-shadow: 0px 2px 30px #fc8f49;
+}
+
+.section-title{
+    font-size: 36px;
+    color: #707070;
+    font-weight: bold;
+    line-height: 54px;;
+}
+
+.section-pera{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 136%;
+    margin-top: 35px;
+}
+
+.section-head-wrapper {
+    text-align: center;
+    width: 60%;
+    margin-bottom: 40px;
 }
 /* css for banner section */
 h1.banner-title {
@@ -55,3 +78,43 @@ h1.banner-title {
 .banner-image {
     width: 100%;
 }
+
+
+/*CSS for About Me section  */
+#about-me {
+    background-image: url("../images/shapes/Frame 58.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+.about-me-image{
+    width: auto;
+    height: 536px;
+}
+
+/* CSS for my recipies */
+#my-recipies{
+    padding: 5% 0px;
+}
+
+.recipie-item {
+    box-shadow: 0px 4px 40px 0 rgb(0 0 0 / 15%);
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 90%;
+    border-radius: 50px;
+}
+.recipie-img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.item-description{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* CSS for follower number section */
